@@ -1,0 +1,61 @@
+$color-blanco: #ffffff;
+$color-azul: #007bff;
+.btn-primary {
+  background-color: $color-blanco;
+  border-color: $color-blanco;
+  color: $color-azul;
+
+  &:hover {
+    background-color: $color-azul;
+    border-color: $color-azul;
+    color: $color-blanco;
+  }
+}
+
+.header {
+  background-color: $color-azul;
+}
+
+.btn-alquiler {
+  background-color: $color-azul;
+  border-color: $color-azul;
+  color: $color-blanco;
+  border: 2px solid $color-blanco;
+}
+.btn-alquiler {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #007bff;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+.btn-alquiler {
+  color: white; 
+  background-color: transparent; 
+  border: 2px solid blue; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  transition: all 0.3s ease; 
+  &:hover {
+    background-color: blue; 
+    color: white; 
+    text-decoration: none;
+  }
+}
+$primary-color: #007bff;
+$btn-color: #007bff;
+
+body {
+  background-color: $primary-color;
+}
+
+.btn-alquiler {
+  background-color: $btn-color;
+  color: #fff;
+}
+
